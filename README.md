@@ -51,7 +51,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 6.	Finalize The 2D Sketch:
 
         1.Recheck all dimensions, constraints, and geometry for completeness.
-  	    2.Click on the 'Finish Sketch' option on the top right toolbar to exit the sketch environment and finalize the 2D profile.
+  	    2.Click on the 'Finish Sketch' option on the top right toolbar to exit
+  	the sketch environment and finalize the 2D profile.
 
 ![image](https://user-images.githubusercontent.com/113594316/198206639-31c4bdb5-b13e-4106-bcf5-125c294aa03e.png)
 
@@ -59,7 +60,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 
          1.Switch from the modeling workspace to the drawing mode(e.g., Drawing from Design).
          2.Select an appropriate ISO standard drawing sheet template and title block.
-         3.Insert the primary orthographic views9Front, Top, Side)and apply proper ISO standard dimensioning, annotations, and title block details to plot the drawing.
+         3.Insert the primary orthographic views9Front, Top, Side)and apply proper ISO
+     standard dimensioning, annotations, and title block details to plot the drawing.
 
 ![image](https://user-images.githubusercontent.com/113594316/198206697-2e3ead2b-7d1e-436e-bc36-aa2e73c1e78e.png)
 
