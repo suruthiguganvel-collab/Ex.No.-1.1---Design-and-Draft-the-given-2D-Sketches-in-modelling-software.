@@ -40,7 +40,7 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 
 5.	Inspect And Dimension The Sketch:
 
-       1.Apply geometric constraints(e.g., Horizontal, Vertical, Tangent, Coincident) to constrain the geomtry.
+       1.Apply geometric constraints(e.g., Horizontal, Vertical, Tangent, Coincident) to constrain the geometry.
   	   2.Use the 'Inspect'/'Dimension' tool to measure and define exact dimensional values(length, radius, diameter, angle)for each entity to ensure accuracy.
 
 ![image](https://user-images.githubusercontent.com/113594316/198206621-6348e8a3-4bbd-4a1f-96d3-db16fbf933d9.png)
