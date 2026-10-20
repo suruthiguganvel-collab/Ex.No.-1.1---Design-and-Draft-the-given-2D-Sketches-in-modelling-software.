@@ -29,23 +29,27 @@ To sketch the given drawing with dimensions using fusion 360 tool.
       1.Select suitable sketching features such as Line, Circle, Arc, Rectangle, Polygon, or Spline from the toolbar.
   	  2.Draw the initial profile according to the shape and baseline requirements of the given 2D diagram.
 
-![image](https://user-images.githubusercontent.com/113594316/198206497-ca83d495-119b-45cd-b43d-8ca3ea7e9544.png)
+<img width="554" height="562" alt="Screenshot 2026-10-20 100810" src="https://github.com/user-attachments/assets/b5455ff0-d93a-4d73-be6a-b18b0f45e2bd" />
+
 
 4.	Edit And Modify The Geometry Using Editing Tools:
 
       1.Utilize sketch modification tools like Trim, Extend, Cut, Mirror, Offset, Fillet, Chamfer, or Move to refine the profile.
   	  2.Remove extra line and accurately construct complex shapes as per the given design.
 
-![image](https://user-images.githubusercontent.com/113594316/198206562-68463016-3f32-4a87-aa5b-7a17dd023b31.png)
+<img width="521" height="541" alt="Screenshot 2026-10-20 100759" src="https://github.com/user-attachments/assets/adeaad1e-4acb-4cbe-a6c2-916bc7e7790b" />
+
 
 5.	Inspect And Dimension The Sketch:
 
        1.Apply geometric constraints(e.g., Horizontal, Vertical, Tangent, Coincident) to constrain the geometry.
   	   2.Use the 'Inspect'/'Dimension' tool to measure and define exact dimensional values(length, radius, diameter, angle)for each entity to ensure accuracy.
 
-![image](https://user-images.githubusercontent.com/113594316/198206621-6348e8a3-4bbd-4a1f-96d3-db16fbf933d9.png)
+<img width="546" height="539" alt="Screenshot 2026-10-20 100745" src="https://github.com/user-attachments/assets/3e001d85-f1c4-494a-a63d-c0766f3a6eab" />
 
-<img width="566" height="751" alt="Screenshot 2026-10-19 202933" src="https://github.com/user-attachments/assets/368c57c6-557f-490e-b9dc-7aca70c1f5f1" />
+
+<img width="545" height="641" alt="Screenshot 2026-10-20 101745" src="https://github.com/user-attachments/assets/883087d4-6a75-45c1-a8fd-32481eb35f2c" />
+
 
 
 6.	Finalize The 2D Sketch:
@@ -53,7 +57,8 @@ To sketch the given drawing with dimensions using fusion 360 tool.
         1.Recheck all dimensions, constraints, and geometry for completeness.
   	    2.Click on the 'Finish Sketch' option on the top right toolbar to exit the sketch environment and finalize the 2D profile.
 
-![image](https://user-images.githubusercontent.com/113594316/198206639-31c4bdb5-b13e-4106-bcf5-125c294aa03e.png)
+<img width="584" height="285" alt="Screenshot 2026-10-20 100732" src="https://github.com/user-attachments/assets/3c593d6f-e694-4308-a0f9-c4f99651f789" />
+
 
 7.  Generate The Technical Drawing Sheet(Drafting in ISO Standard):
 
@@ -61,16 +66,19 @@ To sketch the given drawing with dimensions using fusion 360 tool.
          2.Select an appropriate ISO standard drawing sheet template and title block.
          3.Insert the primary orthographic views9Front, Top, Side)and apply proper ISO standard dimensioning, annotations, and title block details to plot the drawing.
 
-![image](https://user-images.githubusercontent.com/113594316/198206697-2e3ead2b-7d1e-436e-bc36-aa2e73c1e78e.png)
+<img width="564" height="455" alt="Screenshot 2026-10-20 100716" src="https://github.com/user-attachments/assets/85313ba1-4657-4de8-b985-69a32198aab4" />
 
-![image](https://user-images.githubusercontent.com/113594316/198206721-8ad45462-2675-4be2-964f-621c8fc4490e.png)
+
+<img width="543" height="613" alt="Screenshot 2026-10-20 101704" src="https://github.com/user-attachments/assets/8a91c766-52a1-4588-b31f-2804fbf8c956" />
+
 
 
 ## SKETCHS
 ![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
 
 ## OUTPUT
-<img width="1023" height="725" alt="Screenshot 2026-10-19 153641" src="https://github.com/user-attachments/assets/eeb0b708-d98d-44d5-ab8f-2fb9545bbdc2" />
+<img width="940" height="638" alt="Screenshot 2026-10-20 103123" src="https://github.com/user-attachments/assets/adf97a25-f17e-475a-90f8-f98375c70533" />
+
 
 <img width="491" height="435" alt="Screenshot 2026-10-19 153900" src="https://github.com/user-attachments/assets/84676271-6778-48e2-afef-67028422976a" />
 
