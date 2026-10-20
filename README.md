@@ -71,6 +71,20 @@ To sketch the given drawing with dimensions using fusion 360 tool.
 
 <img width="543" height="613" alt="Screenshot 2026-10-20 101704" src="https://github.com/user-attachments/assets/8a91c766-52a1-4588-b31f-2804fbf8c956" />
 
+PROCESS:
+Create new sketch: Open fusion 360,start a new design, click create sketch, and select your preferred working plane.
+Draw center circles: Locate the origin point and draw the central inner and outer reference circles.
+Create center spline profile: Draw the internal spline/gear profile at the center and use the circular pattern tool to replicate it evenly around the middle.
+Positions right-side circles: Place a point along the horizontal axis to the right and draw the corresponding inner and outer circles.
+Position left-side circles: Place a point on the left side along the centerline to create the middle inner and outer circles.
+Draw complete top-half sketch: Draw the top-left side circles along with all the top connecting arcs, and apply tangent constraints for smooth transitions.
+Select mirror tool: Go to create>mirror and select all the top-half circles and arcs and as your objects.
+Select center mirror line: Click on mirror line in the dialog box and select the central horizontal centerline to flip the entire top half directly to the bottom half.
+Trim unwanted lines: Use the trim tool(T) to clear out any overlapping internal lines and create a clean closed profile.
+Finish sketch and extrude: Click finish sketch, select the extrude tool, and apply thickness to convert the sketch into 3D solid model.
+
+
+
 
 
 ## SKETCHS
