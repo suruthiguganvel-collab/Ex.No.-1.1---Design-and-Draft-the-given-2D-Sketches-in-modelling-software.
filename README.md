@@ -91,7 +91,8 @@ Finish sketch and extrude: Click finish sketch, select the extrude tool, and app
 ![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
 
 ## OUTPUT
-<img width="940" height="638" alt="Screenshot 2026-10-20 103123" src="https://github.com/user-attachments/assets/adf97a25-f17e-475a-90f8-f98375c70533" />
+<img width="895" height="629" alt="Screenshot 2026-10-21 111511" src="https://github.com/user-attachments/assets/4ab2a7ec-ea61-498a-a0c9-cadb9d1e40df" />
+
 
 
 <img width="491" height="435" alt="Screenshot 2026-10-19 153900" src="https://github.com/user-attachments/assets/84676271-6778-48e2-afef-67028422976a" />
