@@ -65,25 +65,40 @@ Step 3: Sketching Internal Features (Holes, Slots, or Cutouts)
 1. Activating Sketch Tools for Internal Profiles:
 Remain inside the active 2D sketch environment or select the top flat planar face of your existing base profile, click Create Sketch to start a secondary sketch layer.
 Navigate to the Create dropdown menu on the toolbar to access advanced drawing primitives such as Circle (Center Diameter Circle, shortcut: C) or Slot (Center-to-Center Slot, Overall Slot).
+
+<img width="471" height="525" alt="Screenshot 2026-11-13 095606" src="https://github.com/user-attachments/assets/3a88b6db-582c-480b-bb9b-aa28d212dc78" />
+
 2. Drawing Internal Circles and Slots:
 Click on the canvas to place the center point of the internal hole, circle, or slot corresponding to the layout shown in the engineering drawing.
 Drag your cursor outward to define the approximate size and click again, or directly type the exact diameter/radius value into the input box and press Enter.
+
 3. Positioning Features Using Sketch Dimensions:
 Activate the Sketch Dimension tool (shortcut: D) to precisely locate the center points of these internal features.
 Select the center point of the circle/slot and then click on a reference outer edge or the central origin point, drag the dimension line away, and enter the exact coordinate or offset distance specified in the diagram.
-4. Completing and Exiting the Sketch Environment:
+
+<img width="877" height="811" alt="image" src="https://github.com/user-attachments/assets/0eed2f44-dc6f-4610-9eec-415cf0969e5e" />
+
+5. Completing and Exiting the Sketch Environment:
 Review all internal profiles, center distances, and dimensions to ensure everything matches the engineering reference drawing.
 Locate and click the green Finish Sketch checkmark button on the right side of the floating sketch palette (or top toolbar) to exit the 2D sketching mode and return to the 3D modeling workspace.
+
+<img width="486" height="380" alt="image" src="https://github.com/user-attachments/assets/36aab3df-46bd-4bc2-8fa5-8c3704ca48a0" />
 
 Step 4: 3D Solid Modeling Using the Extrude Tool
 1. Activating the Extrude Command:
 Navigate to the Solid tab on the top toolbar, locate the Create panel, and click on the Extrude tool (or simply press the keyboard shortcut E) to open the Extrude dialog box on the right side of the screen.
+
+<img width="787" height="735" alt="image" src="https://github.com/user-attachments/assets/c8353045-b30f-4f80-a417-854b95b0b737" />
+
 2. Selecting the Closed 2D Sketch Profile:
 Move your cursor over the completed 2D sketch on the canvas and click directly inside the main closed profile boundary (highlighted in blue) to select the region you want to convert into a 3D solid.
 Ensure that any internal holes or cutouts that need to remain hollow are left unselected so they automatically form through-holes during extrusion.
 3. Defining Extrusion Direction, Extent, and Distance:
 In the Extrude dialog box, verify that the Start is set to Profile Plane and choose the appropriate Direction (such as One Side, Two Sides, or Symmetric depending on your design requirement).
 Drag the directional blue arrow on the screen or type the exact thickness/height measurement (e.g., 10 mm, 15 mm, or the specific value given in the engineering drawing) into the Distance input field.
+
+<img width="341" height="775" alt="image" src="https://github.com/user-attachments/assets/3bfe39fc-1cbe-420e-b34f-8b028e00be5e" />
+
 4. Confirming the Boolean Operation and Generating the 3D Body:
 Under the Operation dropdown menu in the dialog box, ensure it is set to New Body so that Fusion 360 creates a brand-new independent 3D solid object.
 Click OK (or press Enter) to finalize the extrusion and verify that the newly generated 3D solid appears under the Bodies folder in the Browser tree.
@@ -104,19 +119,28 @@ To Add Material (Bosses / Steps): Drag the directional arrow outward away from t
 To Remove Material (Pockets / Blind Holes): Drag the directional arrow inward into the existing solid body (the preview will turn red), enter the exact cut depth or select All under Extent Type for through-holes, and verify that the Operation is set to Cut.
 Click OK to finalize the secondary 3D feature and verify its appearance in the viewport.
 
+<img width="666" height="912" alt="image" src="https://github.com/user-attachments/assets/9616ed00-6ef6-4ee6-9172-271164659c22" />
+
 Step 6: Applying Edge Finishing Features (Fillets and Chamfers)
 1. Activating the Fillet Command for Rounded Edges:
 Navigate to the Solid tab on the top toolbar, expand the Modify dropdown menu, and select the Fillet tool (or simply press the keyboard shortcut F) to open the Fillet dialog box.
 Identify all internal or external sharp corners and linear edges on the 3D solid model that require smooth rounding according to the technical drawing specifications.
+
+<img width="1272" height="857" alt="image" src="https://github.com/user-attachments/assets/a805ed78-1d61-4b63-8229-68597cff5d41" />
+
 2. Selecting Edges and Specifying the Fillet Radius:
 Click individually on the target 3D model edges (holding the Ctrl or Cmd key if needed to add multiple edges to the same selection set) and verify that Tangent Chain is enabled if you want connected tangent edges selected automatically.
 Drag the blue directional arrow inward or type the exact radius measurement (e.g., R2 mm, R5 mm, or the designated value from the diagram) into the Radius input field, verify the live preview, and click OK.
 3. Activating the Chamfer Command for Beveled Cuts:
 Open the Modify menu again and select Chamfer to apply angled, flat beveled transitions to sharp outer perimeters or hole openings (commonly used to remove burrs or assist fastener assembly).
+
+<img width="857" height="737" alt="image" src="https://github.com/user-attachments/assets/7b7eb456-8a97-46e2-beea-e488263745f9" />
 4. Configuring Chamfer Type, Distance, and Angle Parameters:
+
 Select the specific sharp edges on the 3D body that require beveling.
 In the Chamfer dialog box, choose the appropriate Chamfer Type matching the drawing callout—such as Equal Distance (for a standard 45-degree bevel), Two Distances, or Distance and Angle.
 Enter the exact bevel width and angle values (e.g., 2 mm x 45°) into the input boxes, inspect the preview on the model, and click OK to finalize the finishing features.
+
 Step 7: Model Verification, Inspection, and Final Saving
 1. Visual Inspection and Multi-Angle Orientation Check:
 Use the ViewCube located at the top-right corner of the viewport (or hold Shift + Middle Mouse Button to use the Orbit tool) to rotate and view the completed 3D solid model from all standard orthographic and isometric perspectives (Front, Top, Right, and Isometric views).
@@ -129,6 +153,8 @@ Right-click on the completed 3D solid under the Bodies folder in the Browser tre
 4. Final Version Saving and File Export:
 Review the Timeline at the bottom of the screen to confirm there are no yellow or red warning flags indicating unresolved sketch or feature errors.
 Click the Save icon (shortcut: Ctrl + S / Cmd + S), enter a clear version description (e.g., "Final verified 3D model for Ex 1.1"), and click OK to store the completed project securely in your cloud workspace (or export it via File > Export into .STEP, .STL, or .F3D format for submission).
+
+<img width="1912" height="956" alt="image" src="https://github.com/user-attachments/assets/6f0e74ba-bec8-4451-9249-71eb1b4a4024" />
 
 ## SKETCHS
 ![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
@@ -143,8 +169,9 @@ Click the Save icon (shortcut: Ctrl + S / Cmd + S), enter a clear version descri
 
 ## RESULT
 
-<img width="786" height="626" alt="Screenshot 2026-11-12 185222" src="https://github.com/user-attachments/assets/caa257d2-4587-452f-9750-67fde0504bd3" />
-
 Thus, the 3D solid parametric model of the given mechanical component was successfully designed, constructed, and verified using Autodesk Fusion 360 in strict accordance with the geometric constraints and dimensional specifications provided in the reference engineering drawing.
 Through this exercise, the complete CAD modeling workflow—including workspace and unit configuration, creating fully constrained 2D base and secondary sketches, generating 3D solid features via Extrude (Join and Cut Boolean operations), applying edge-finishing operations such as Fillets and Chamfers, and performing dimensional verification using the Inspect tools—was thoroughly executed and validated without any geometric errors.
+
+<img width="786" height="626" alt="Screenshot 2026-11-12 185222" src="https://github.com/user-attachments/assets/caa257d2-4587-452f-9750-67fde0504bd3" />
+
 
